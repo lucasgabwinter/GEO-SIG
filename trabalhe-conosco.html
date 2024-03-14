@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Trabalhe Conosco</title>
+        <!-------Bootstrap-------->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+            crossorigin="anonymous"
+        />
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+            crossorigin="anonymous"
+        ></script>
+        <!-------Fonts-------->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Ubuntu&display=swap"
+            rel="stylesheet"
+        />
+        <!-------Font Awesome-------->
+        <script src="https://kit.fontawesome.com/e538bdf0e6.js"></script>
+        <!-------CSS-------->
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <!-- Nav Bar -->
+        <section id="cabecalho">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <a class="navbar-brand" href="index.html">GEO-SIG</a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="features.html"
+                                >Features</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="orcamento.html"
+                                >Solicite Orçamento</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="trabalhe-conosco.html"
+                                >Trabalhe Conosco</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="testemunhos.html"
+                                >Testemunhos</a
+                            >
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </section>
+        <!-- Vagas -->
+        <section id="vagas">
+            <h2>Vagas em aberto</h2>
+            <p>Selecione as vagas de interesse e mande seu currículo!</p>
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3 id="vaga1">Programador C++</h3>
+                        </div>
+                        <div class="card-body">
+                            <p>Mínimo 15 anos de experiência.</p>
+                            <p>
+                                Vale alimentação, vale transporte, férias
+                                remuneradas.
+                            </p>
+                            <p>Contração CLT.</p>
+                            <a
+                                href="mailto:geo-sig@empresa.com?&amp;subject=Tenho%20interesse%20em%20testar%20o%20software!
+&amp;body=Tenho%20interesse%20em%20testar%20o%20software!"
+                            >
+                                <input
+                                    onclick="adicionar1()"
+                                    type="checkbox"
+                                    class="btn-check"
+                                    id="btncheck1"
+                                    autocomplete="off"
+                                />
+                                <label
+                                    class="btn btn-outline-primary"
+                                    for="btncheck1"
+                                    >Tenho interesse nesta vaga!</label
+                                >
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3 id="vaga2">Analista de Suporte</h3>
+                        </div>
+                        <div class="card-body">
+                            <p>Mínimo 05 anos de experiência.</p>
+                            <p>
+                                Vale alimentação, vale transporte, férias
+                                remuneradas.
+                            </p>
+                            <p>Contração CLT.</p>
+                            <a
+                                href="mailto:geo-sig@empresa.com?&amp;subject=Tenho%20interesse%20em%20assinar%20o%20plano%20mensal!
+&amp;body=Tenho%20interesse%20em%20assinar%20o%20plano%20mensal!"
+                            >
+                                <input
+                                    onclick="adicionar2()"
+                                    type="checkbox"
+                                    class="btn-check"
+                                    id="btncheck2"
+                                    autocomplete="off"
+                                />
+                                <label
+                                    class="btn btn-outline-primary"
+                                    for="btncheck2"
+                                    >Tenho interesse nesta vaga!</label
+                                >
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3 id="vaga3">Gerente de Contabilidade</h3>
+                        </div>
+                        <div class="card-body">
+                            <p>Mínimo 10 anos de experiência</p>
+                            <p>
+                                Formação em ciências contábeis com registro no
+                                conselho de classe da categoria.
+                            </p>
+                            <p>
+                                Vale alimentação, vale transporte, férias
+                                remuneradas.
+                            </p>
+                            <p>Contração CLT.</p>
+                            <a
+                                href="mailto:geo-sig@empresa.com?&amp;subject=Tenho%20interesse%20em%20assinar%20o%20plano%20anual!
+&amp;body=Tenho%20interesse%20em%20assinar%20o%20plano%20anual!"
+                            >
+                                <input
+                                    onclick="adicionar3()"
+                                    type="checkbox"
+                                    class="btn-check"
+                                    id="btncheck3"
+                                    autocomplete="off"
+                                />
+                                <label
+                                    class="btn btn-outline-primary"
+                                    for="btncheck3"
+                                    >Tenho interesse nesta vaga!</label
+                                >
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br />
+            <table class="table" border="1px solid"></table>
+                <button type="button" class="btn btn-primary curriculo" onclick="EnviarEmail()">
+                    Enviar currículo!
+                </button>
+            </a>
+        </section>
+        <!-- Rodapé -->
+        <section id="rodape">
+            <a href="https://twitter.com"
+                ><i class="fa-brands fa-twitter icones-midias-sociais"></i
+            ></a>
+            <a href="https://instagram.com">
+                <i class="fa-brands fa-instagram icones-midias-sociais"></i
+            ></a>
+            <a
+                href="mailto:geo-sig@empresa.com?&amp;subject=Tenho%20interesse%20em%20testar%20o%20software!
+&amp;body=Tenho%20interesse%20em%20testar%20o%20software!"
+            >
+                <i class="fa-solid fa-envelope icones-midias-sociais"></i>
+            </a>
+            <p>
+                © Copyright GEO-SIG - Rua Mario de Barros, 1098. Dois
+                Vizinhos-PR. (46) 3536-3667
+            </p>
+            <p>Luca Aguiar Costa Carvalho e Lucas Gabriel Winter</p>
+        </section>
+    </body>
+    <script src="script.js"></script>
+</html>
